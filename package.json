@@ -1,0 +1,29 @@
+{
+  "name": "ai-image-generator",
+  "version": "1.0.0",
+  "description": "This is an ai image generator that takes in text and outputs an image to the screen from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohamk0524/ai-image-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohamk0524/ai-image-generator/issues"
+  },
+  "homepage": "https://github.com/sohamk0524/ai-image-generator#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.33.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
